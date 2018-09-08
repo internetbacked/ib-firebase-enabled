@@ -1,0 +1,28 @@
+{
+    "name": "internetbacked/ib-firebase-enabled",
+    "description": "use firebase features in wordpress. Currently, only Facebook login.",
+    "authors": [
+        {
+            "name": "Ihsan Berahim",
+            "email": "ihsanberahim@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ibfe\\" : "includes/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0",
+        "facebook/graph-sdk": "~5.0"
+    },
+    "config": {
+        "platform": {
+            "php": "5.6.34"
+        },
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
